@@ -20,12 +20,11 @@ export const PATH = {
 }
 
 
-
 function App() {
   return (
     <div className="App">
         <Routes>
-            <Route path={'/'} element={<Profile/>}/>
+            <Route path={'/'} element={<TestPage/>}/>
             <Route path={PATH.PROFILE} element={<Profile/>}/>
             <Route path={PATH.REGISTRATION} element={<Registration/>}/>
             <Route path={PATH.TEST} element={<TestPage/>}/>
